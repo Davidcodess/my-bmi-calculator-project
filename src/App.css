@@ -1,38 +1,158 @@
-.App {
+#root {
+  width: 100%;
+}
+
+.header {
+  background: linear-gradient(315deg, #d6e6fe 0%,rgba(214, 252, 254, 0.00) 100%);
+  border-radius: 0px 0px 35px 35px;
+  padding-bottom: 30px;
+  height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 48px;
   text-align: center;
+  width: 60%;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-p {
+  width: 85%;
+  margin: auto;
+  text-align:center;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bmi-calculator-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 90%;
+  position:relative;
+  margin: auto;
+  margin-top: 450px;
+  height: fit-content;
+  padding-bottom: 50px;
+  border-radius: 16px;
+  background: var(--pure-white, #FFF);
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  z-index: 8;
+  
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  margin: auto;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.unit-container {
+  display: flex;
+  margin: auto;
+  width: 75%;
+  justify-content: space-between;
+  
+}
+
+.unit-btn {
+  height: 40px;
+  width: 110px;
+  border-radius: 10px;
+  border: 1px solid #d6e6fe;
+  background-color: #FFF;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.unit-btn:hover {
+  background-color:#345FF6;
+  color: #FFF;
+}
+
+.unit-btn-onclick {
+  background-color:#345FF6;
+  color: #FFF;
+
+}
+
+.imperial-unit-container {
+  display: none;
+}
+
+.imperial-ft-in-container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+  
+
+}
+.input-container {
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+input-container-two {
+  display: flex;
+}
+
+input {
+  border-radius: 12px;
+  border: 1px solid #D8E2E7;
+  background: var(--pure-white, #FFF);
+  width: 40%;
+  height: 34px;
+  font-size: 20px;
+  color: #345FF6;
+  text-align: center;
+  margin: auto;
+}
+
+.imperial-input {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.height-weight-input-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+label {
+  margin-left: 8px;
+}
+
+.bmi-result-container {
+background-color: #345FF6;
+width: 70%;
+height: 145px;
+margin: auto;
+border-radius: 0 25px 25px 0px;
+margin-bottom: 20px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+  
 }
