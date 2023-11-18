@@ -3,7 +3,7 @@
 }
 
 .header {
-  background: linear-gradient(315deg, #d6e6fe 0%,rgba(214, 252, 254, 0.00) 100%);
+  background: var(--Gradient-1, linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%));
   border-radius: 0px 0px 35px 35px;
   padding-bottom: 30px;
   height: fit-content;
@@ -40,7 +40,7 @@ h1 {
 .bmi-calculator-container {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 85%;
   position:relative;
   margin: auto;
   margin-top: 450px;
@@ -54,10 +54,11 @@ h1 {
 }
 
 h3 {
-  margin: auto;
+  
   font-size: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: left;
   
 }
 
@@ -116,7 +117,7 @@ input {
   border-radius: 12px;
   border: 1px solid #D8E2E7;
   background: var(--pure-white, #FFF);
-  width: 40%;
+width: 90%;
   height: 34px;
   font-size: 20px;
   color: #345FF6;
@@ -145,14 +146,27 @@ label {
 }
 
 .bmi-result-container {
-background-color: #345FF6;
-width: 70%;
-height: 145px;
+border-radius: 16px 999px 999px 16px;
+background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+width: 90%;
+height: 125px;
 margin: auto;
-border-radius: 0 25px 25px 0px;
 margin-bottom: 20px;
 display: flex;
 justify-content:space-around;
 align-items: center;
-  
+color: #FFF;
+}
+
+.bmi-result-meaning-container {
+  display: flex;
+  width:90%;
+  justify-content: space-evenly;
+  margin: auto;
+  background: var(--Pure-White, #FFF);
+  margin-top: 100px;
+}
+
+.eating-man-container,.bmi-result-text-container {
+  width: 50%;
 }

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import ResultContainer from './result-container';
+import './image-man-eating.jpg';
+import YourBmiResultMeaning from './BmiResultMeaning';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -74,7 +77,7 @@ function App() {
         <br/>
         <ResultContainer/>
       </div>
-     
+      <YourBmiResultMeaning/>
     </>
   )
 }
