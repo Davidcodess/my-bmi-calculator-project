@@ -165,8 +165,104 @@ color: #FFF;
   margin: auto;
   background: var(--Pure-White, #FFF);
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .eating-man-container,.bmi-result-text-container {
   width: 50%;
+}
+
+.health-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  /* opacity: 0.25; */
+  background: var(--Gradient-1, linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 90%));
+  height: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+
+.health-header-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.health-container-text {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.health-header {
+  margin: unset;
+}
+
+.Limit-container {
+  width: 90%;
+  margin: auto;
+  background: var(--Pure-White, #FFF);
+  margin-bottom: 100px;
+}
+
+.four-factors-container {
+  width: 90%;
+ 
+}
+
+.Limit-header {
+  text-align: center;
+  font-size:32px;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.Limit-header-text {
+  font-size:16px;
+  margin: auto;
+  width: 99%;
+  line-height: 24px;
+}
+
+.four-factors-container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.factor-container {
+  width: 48%;
+  margin: auto;
+  background-color: #FFF;
+  border-radius: 16px;
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  height: 200px;
+  margin-bottom: 15px;
+  gap: 32px;
+
+}
+
+.factor-header-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 87%;
+  margin: auto;
+}
+
+.limitations-text {
+  font-size: 14px;
+  width: 85%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 21px;
+ 
 }

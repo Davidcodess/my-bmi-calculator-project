@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import ResultContainer from './result-container';
-import './image-man-eating.jpg';
 import YourBmiResultMeaning from './BmiResultMeaning';
+import HealthSection from './health-section';
+import Limitations from './limitations';
 
 
 function App() {
@@ -78,6 +79,8 @@ function App() {
         <ResultContainer/>
       </div>
       <YourBmiResultMeaning/>
+      <HealthSection/>
+      <Limitations/>
     </>
   )
 }
