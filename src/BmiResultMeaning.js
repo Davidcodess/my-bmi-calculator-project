@@ -1,12 +1,12 @@
-import react from 'react';
+import React from 'react';
 import './App.css'
-import './image-man-eating.jpg';
+import manEatingImage from './image-man-eating.jpg';
 
 const YourBmiResultMeaning = () => {
     return (
         <div className='bmi-result-meaning-container'>
             <div className='eating-man-container'>
-                <img src='image-man-eating.jpg' alt=' a picture of a man eating sushi'></img>
+        <img src={manEatingImage} alt='a man eating sushi'></img>
             </div>
             <div className='bmi-result-text-container'>
                 <h4> What your BMI  </h4>

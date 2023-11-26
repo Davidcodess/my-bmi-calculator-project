@@ -166,10 +166,17 @@ color: #FFF;
   background: var(--Pure-White, #FFF);
   margin-top: 100px;
   margin-bottom: 50px;
+  align-content: center;
 }
 
 .eating-man-container,.bmi-result-text-container {
   width: 50%;
+}
+
+img {
+ max-width:95%;
+ object-fit: contain;
+ margin: auto;
 }
 
 .health-container {

@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './App.css'
+
+import './App.css';
 import ResultContainer from './result-container';
 import YourBmiResultMeaning from './BmiResultMeaning';
 import HealthSection from './health-section';
@@ -7,7 +7,7 @@ import Limitations from './limitations';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
